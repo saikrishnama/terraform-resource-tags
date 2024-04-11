@@ -1,34 +1,32 @@
 variable "environment" {
   type    = string
-  default = "dev"
+  default = null
 }
 variable "application_name" {
   type    = string
-  default = "sample-app"
+  default = null
 
 }
 variable "cost_center_id" {
-  type    = string
-  default = "12345"
+  type    = number
+  default = null
 
 }
 variable "application_portfolio" {
   type    = string
-  default = "appp-ada"
+  default = null
 }
 variable "app_team_name" {
   type    = string
-  default = "dragaon"
+  default = null
 
 }
 variable "email_id" {
   type    = string
-  default = "app@gmail.com"
+  default = null
 }
 variable "tags" {
   type = map(string)
-  default = {
-
-  }
+  default = {}
 
 }
