@@ -5,7 +5,7 @@ locals {
   cost_center_id        = lower(format("%v", var.cost_center_id))
   app_team_name         = lower(format("%v", var.app_team_name))
   ### email Group Details 
-  email = format("%v", var.email_id)
+  email_id = format("%v", var.email_id)
   manditory_tags = {
     environment           = local.environment
     application_name      = local.application_name

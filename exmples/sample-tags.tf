@@ -7,5 +7,4 @@ module "tags" {
   application_portfolio = var.application_portfolio
   email_id              = var.email_id
   tags                  = var.tags
-
 }
